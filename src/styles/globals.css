@@ -25,3 +25,19 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.section {
+  @apply bg-slate-400 p-6 rounded-xl border-solid border-red-600 border-2;
+}
+
+.section-header {
+  @apply text-4xl font-bold;
+}
+
+.para {
+  @apply text-xl text-left hyphens-none;
+}
+
+.button {
+  @apply bg-blue-400 p-3 rounded-xl;
+}
