@@ -27,11 +27,11 @@ body {
 }
 
 .section {
-  @apply bg-slate-400 p-6 rounded-xl border-solid border-red-600 border-2;
+  @apply mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16 lg:min-h-[500px];
 }
 
 .section-header {
-  @apply text-4xl font-bold;
+  @apply text-4xl font-bold lg:text-3xl;
 }
 
 .para {
@@ -39,5 +39,37 @@ body {
 }
 
 .button {
-  @apply bg-blue-400 p-3 rounded-xl;
+  @apply mt-8 inline-block rounded-full px-12 py-3 transition  bg-bluest-blue text-white font-semibold;
+}
+
+.dashed-hover {
+ @apply  hover:outline-slate-700 hover:outline-dashed hover:outline-offset-8;
+}
+
+.input {
+  @apply p-3 rounded-lg border border-dashed border-gray-600 text-sm;
+}
+
+.double-input {
+  @apply grid grid-cols-2 gap-3;
+}
+
+#contact-form {
+  scroll-behavior: smooth;
+}
+
+.card-container {
+  @apply h-32 rounded-lg;
+}
+
+.card {
+  @apply h-80 md:h-64 lg:h-96;
+}
+
+.card-content {
+  @apply flex h-full items-end;
+}
+
+.card-header {
+  @apply p-4 pt-0 lg:p-8;
 }
