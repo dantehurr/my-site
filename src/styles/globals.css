@@ -59,17 +59,25 @@ body {
 }
 
 .card-container {
-  @apply h-32 rounded-lg;
+  @apply pt-5 lg:pt-10 grid grid-cols-1 gap-4 lg:grid-cols-3 lg:gap-8;
+}
+
+.card-subtitle {
+  @apply flex flex-row;
 }
 
 .card {
-  @apply h-80 md:h-64 lg:h-96;
+  @apply flex flex-col rounded-2xl;
 }
 
 .card-content {
-  @apply flex h-full items-end;
+  @apply text-lg hover:underline;
 }
 
 .card-header {
-  @apply p-4 pt-0 lg:p-8;
+  @apply text-2xl font-semibold;
+}
+
+.card-image {
+  @apply mx-auto h-auto w-auto rounded-t-2xl;
 }
