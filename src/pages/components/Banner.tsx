@@ -1,13 +1,15 @@
 import Image from "next/image";
 
 import { FaJs, FaReact, FaCss3Alt, FaHtml5, FaFigma, FaNodeJs, FaNpm } from 'react-icons/fa6';
+import { IoLogoIonic, IoLogoCapacitor } from 'react-icons/io5';
+import { SiApachecordova, SiXcode} from 'react-icons/si';
 
 const Banner = () => {
     return (
         <section>
             <div className="section">
                 <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
-                    <div className="relative h-64 overflow-hidden sm:h-80 lg:order-last lg:h-full">
+                    <div className="relative h-80 lg:order-last lg:h-full">
                         <img src="/MemojiBWHalftone.png" className="mix-blend-multiply absolute inset-0 h-full w-full object-cover lg:object-contain"/>
                     </div>
                     <div className="lg:py-20">
@@ -23,6 +25,7 @@ const Banner = () => {
                         <FaCss3Alt/>
                         <FaFigma/>
                         <FaHtml5/>
+                        <IoLogoIonic />
                         <FaJs/>
                         <FaNodeJs/>
                         <FaNpm/>

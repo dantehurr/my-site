@@ -63,7 +63,7 @@ body {
 }
 
 .card-subtitle {
-  @apply flex flex-row;
+  @apply flex flex-row text-xl gap-3 justify-center items-center pt-5 pb-2 lg:pt-0 lg:pb-0;
 }
 
 .card {
@@ -71,11 +71,11 @@ body {
 }
 
 .card-content {
-  @apply text-lg hover:underline;
+  @apply text-lg;
 }
 
 .card-header {
-  @apply text-2xl font-semibold;
+  @apply text-2xl font-semibold flex flex-row items-center gap-2 justify-center pb-2;
 }
 
 .card-image {
