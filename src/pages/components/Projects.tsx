@@ -11,7 +11,7 @@ const Projects = () => {
             <div className="card-container">
                 <div className="bg-gray-300 card dashed-hover">
                     <a href="https://gametime-stats.firebaseapp.com/home" target="_blank">
-                        <img className="card-image" src="gametimemobile.png" />
+                        <img className="card-image" src="/GametimeMobile.png" />
                         <div className="p-4">
                             <h4 className="card-header">Gametime Stats<FaArrowRight /></h4>
                             <p className="card-content">Academic project: Create a progressive web app (PWA) to be hosted on the web and deployed to a mobile device as a native app.</p>
