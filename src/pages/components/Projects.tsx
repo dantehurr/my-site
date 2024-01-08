@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import {FaArrowRight, FaJs, FaReact, FaCss3Alt, FaHtml5, FaFigma, FaNodeJs, FaNpm} from 'react-icons/fa6';
 import { IoLogoIonic, IoLogoCapacitor } from 'react-icons/io5';
 import { SiApachecordova, SiXcode} from 'react-icons/si';
@@ -7,6 +8,10 @@ const Projects = () => {
     return (
         <section id="portfolio" className="section">
             <header className="section-header">Some of my Projects</header>
+
+            <Link href="/projects/gametime.tsx">
+                to study
+            </Link>
 
             <div className="card-container">
                 <div className="bg-gray-300 card dashed-hover">
