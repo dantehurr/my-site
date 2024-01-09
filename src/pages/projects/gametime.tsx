@@ -7,7 +7,7 @@ export default function Gametime() {
             <div className="uppercase text-sm text-center py-5 lg:py-10 lg:text-lg font-light">project</div>
             <div className="grid grid-cols-1 lg:grid-cols-2 pt-4 mx-8 lg:mx-16">
                 <div className="order-first">
-                    <div className="lg:fixed lg:w-[30%]">
+                    <div className="lg:fixed lg:w-[30%] dashed-outline">
                         <a className="text-4xl lg:pb-8 flex flex-row items-center gap-2 lg:gap-4 justify-center" href="https://gametime-stats.firebaseapp.com/home" target="_blank">Gametime Stats<FaArrowRight /></a>
                         <ul className="list-disc text-lg pt-10 lg:pt-4">
                             <li className="py-2">Purpose: Academic project for Mobile Web Development course.</li>

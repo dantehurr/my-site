@@ -15,7 +15,7 @@ const Projects = () => {
 
             <div className="card-container">
                 <div className="bg-gray-300 card dashed-hover">
-                    <a href="https://gametime-stats.firebaseapp.com/home" target="_blank">
+                    <a href="/projects/gametime" target="_blank">
                         <img className="card-image" src="/GametimeMobile.png" />
                         <div className="p-4">
                             <h4 className="card-header">Gametime Stats<FaArrowRight /></h4>

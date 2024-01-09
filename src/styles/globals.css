@@ -18,6 +18,7 @@
 
 body {
   color: rgb(var(--foreground-rgb));
+  background: rgb(var(--background-start-rgb));
   /* background: linear-gradient(
       to bottom,
       transparent,
@@ -80,4 +81,8 @@ body {
 
 .card-image {
   @apply mx-auto h-auto w-auto rounded-t-2xl;
+}
+
+.dashed-outline {
+  @apply outline-slate-700 outline-dashed outline-offset-[1.5rem] lg:outline-offset-[2rem] rounded-xl;
 }
