@@ -9,10 +9,6 @@ const Projects = () => {
         <section id="portfolio" className="section">
             <header className="section-header">Some of my Projects</header>
 
-            <Link href="/projects/gametime.tsx">
-                to study
-            </Link>
-
             <div className="card-container">
                 <div className="bg-gray-300 card dashed-hover">
                     <a href="/projects/gametime" target="_blank">
