@@ -30,7 +30,7 @@ const Projects = () => {
                 </div>
 
                 <div className="bg-gray-300 card dashed-hover">
-                    <a href="/projects/gametime" target="_blank">
+                    <a href="https://parallaxdemo.vercel.app" target="_blank">
                         <img className="card-image" src="/ParallaxDesktop.png" />
                         <div className="p-4">
                             <h4 className="card-header">Parallax Demo<FaArrowRight /></h4>
