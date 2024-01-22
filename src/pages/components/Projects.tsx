@@ -28,9 +28,7 @@ const Projects = () => {
                         </div>
                     </a>
                 </div>
-            </div>
 
-            <div className="card-container">
                 <div className="bg-gray-300 card dashed-hover">
                     <a href="/projects/gametime" target="_blank">
                         <img className="card-image" src="/ParallaxDesktop.png" />
@@ -45,6 +43,7 @@ const Projects = () => {
                         </div>
                     </a>
                 </div>
+
             </div>
         </section>
     );
