@@ -28,28 +28,23 @@ const Projects = () => {
                         </div>
                     </a>
                 </div>
+            </div>
 
-                {/* <div className="bg-blue-500 card dashed-hover">
-                    <a href="#">
-                        <img className="card-image" src="https://picsum.photos/400" />
+            <div className="card-container">
+                <div className="bg-gray-300 card dashed-hover">
+                    <a href="/projects/gametime" target="_blank">
+                        <img className="card-image" src="/ParallaxDesktop.png" />
                         <div className="p-4">
-                            <h4 className="card-header">Header</h4>
-                            <p className="card-content">Para</p>
-                            <p className="card-subtitle">tools</p>
+                            <h4 className="card-header">Parallax Demo<FaArrowRight /></h4>
+                            <p className="card-content">Personal project: Created a vertical parallax scroll desktop site using react-spring and media tags to modify the site colors based on user's appearance mode.</p>
+                            <p className="card-subtitle">
+                                <FaJs />
+                                <FaNpm />
+                                <FaReact />
+                            </p>
                         </div>
                     </a>
                 </div>
-
-                <div className="bg-blue-500 card dashed-hover">
-                    <a href="#">
-                        <img className="card-image" src="https://picsum.photos/400" />
-                        <div className="p-4">
-                            <h4 className="card-header">Header</h4>
-                            <p className="card-content">Para</p>
-                            <p className="card-subtitle">tools</p>
-                        </div>
-                    </a>
-                </div> */}
             </div>
         </section>
     );
