@@ -5,12 +5,16 @@ import Projects from './components/Projects'
 import Resume from './components/Resume'
 import Footer from './components/Footer'
 import Header from './components/Header'
+import Head from 'next/head'
 
 export default function Home() {
   return (
     <main
       className="flex min-h-screen flex-col items-center justify-between p-12"
     >
+      <Head>
+        <title>Dante Hurr - Mobile Web Developer/Front-end Engineer</title>
+      </Head>
       <div>
         <Header />
         <Banner />

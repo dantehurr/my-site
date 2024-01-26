@@ -44,6 +44,21 @@ const Projects = () => {
                     </a>
                 </div>
 
+                <div className="bg-gray-300 card dashed-hover">
+                    <a href="https://to-do-list-lovat-sigma.vercel.app" target="_blank">
+                        <img className="card-image" src="/ToDoDesktop.jpg" />
+                        <div className="p-4">
+                            <h4 className="card-header">To Do List<FaArrowRight /></h4>
+                            <p className="card-content">Personal project: Responsive To-Do List web app that utilizes localstorage to store list items and React hooks to manage them. Has light and dark mode UI appearances.</p>
+                            <p className="card-subtitle">
+                                <FaJs />
+                                <FaNpm />
+                                <FaReact />
+                            </p>
+                        </div>
+                    </a>
+                </div>
+
             </div>
         </section>
     );
