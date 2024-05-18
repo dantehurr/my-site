@@ -10,7 +10,7 @@ const Banner = () => {
             <div className="section">
                 <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
                     <div className="relative h-80 lg:order-last lg:h-full">
-                        <img src="/MemojiBWHalftone.png" className="mix-blend-multiply absolute inset-0 h-full w-full object-cover lg:object-contain"/>
+                        <img src="/dante2024.JPG" className="lg:pl-10 absolute h-auto lg:max-h-full object-cover rounded-full"/>
                     </div>
                     <div className="lg:py-20">
                         <header className="section-header">Hello, World!</header>
