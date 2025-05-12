@@ -11,6 +11,7 @@ const Header = () => {
                 <div className='flex mx-auto gap-3 text-4xl lg:text-3xl justify-center text-bluest-blue'>
                     <a href='https://linkedin.com/in/dantehurr/' target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
                     <a href='https://github.com/dantehurr' target="_blank" rel="noopener noreferrer"><FaGithub /></a>
+                    <a href='https://hackerrank.com/dh51481n' target="_blank" rel="noopener noreferrer"><FaLaptopCode /></a>
                     {/* <a href='https://webpage.pace.edu/dh51481n/' target="_blank" rel="noopener noreferrer"><FaLaptopCode /></a> */}
                     {/* <a href='https://www.behance.net/dantehurr' target="_blank" rel="noopener noreferrer"><FaBehance /></a> */}
                 </div>
