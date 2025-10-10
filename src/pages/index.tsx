@@ -6,6 +6,7 @@ import Resume from './components/Resume'
 import Footer from './components/Footer'
 import Header from './components/Header'
 import Head from 'next/head'
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 export default function Home() {
   return (
