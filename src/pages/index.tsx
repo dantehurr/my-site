@@ -13,7 +13,7 @@ export default function Home() {
       className="flex min-h-screen flex-col items-center justify-between p-12"
     >
       <Head>
-        <title>Dante Hurr - Mobile Web Developer/Front-end Engineer</title>
+        <title>Dante Hurr - New Age Technologist</title>
       </Head>
       <div>
         <Header />
