@@ -12,7 +12,7 @@ const Resume = () => {
                 <p className="pt-5">Examples of my work can be found below and on <a href="https://github.com/dantehurr" target="_blank" rel="noopener noreferrer" className="underline text-bluest-blue">my GitHub</a>.</p>
             </div>
             <div className="pt-10 ">
-                <a href="DanteHurr_2026-ATS.pdf" target="_blank" className="hover:underline text-bluest-blue font-medium flex flex-row items-center gap-2 text-lg">
+                <a href="DanteHurr2026.pdf" target="_blank" className="hover:underline text-bluest-blue font-medium flex flex-row items-center gap-2 text-lg">
                     <FaFilePdf />
                 View my full resume here
                 </a>
